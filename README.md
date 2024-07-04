@@ -8,7 +8,7 @@
 
 ![GitHub Created At](https://img.shields.io/github/created-at/dbacilio88/go-application-api)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/dbacilio88/go-application-api/total)
-![GitHub License](https://img.shields.io/github/license/dbacilio88/go-application-api)
+[![GitHub License](https://img.shields.io/github/license/dbacilio88/go-application-api)](LICENSE)
 
 # 🤖 **go-application-api**
 
