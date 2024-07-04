@@ -34,6 +34,8 @@ modules:
 | **viper** |                     `go get go.uber.org/zap`                     | **Version: v1.19.0 Latest  ** | [repository](https://pkg.go.dev/github.com/spf13/viper) |
 | **viper** |           `go get github.com/go-viper/mapstructure/v2`           | **Version: v1.19.0 Latest  ** | [repository](https://pkg.go.dev/github.com/spf13/viper) |
 | **viper** | ![img.png](docs/images/img.png) `go get  github.com/gorilla/mux` | **Version: v1.19.0 Latest  ** | [repository](https://pkg.go.dev/github.com/spf13/viper) |
+| **viper** |                 `go get github.com/google/uuid`                  | **Version: v1.19.0 Latest  ** | [repository](https://pkg.go.dev/github.com/spf13/viper) |
+| **viper** |            `go get -u github.com/swaggo/http-swagger`            | **Version: v1.19.0 Latest  ** | [repository](https://pkg.go.dev/github.com/spf13/viper) |
 
 # 🖥️ **Technologies**
 

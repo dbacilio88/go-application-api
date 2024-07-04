@@ -1,4 +1,14 @@
-### GET request to example server
-GET http://192.168.18.6/actuator/health
+### GET request /actuator/health
+GET http://localhost:8001/actuator/health
+
+###
+
+### ### GET request /actuator/health/readiness
+GET http://localhost:8001/actuator/health/readiness
+
+###
+
+### ### GET request /actuator/health/liveliness
+GET http://localhost:8001/actuator/health/liveliness
 
 ###

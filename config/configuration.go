@@ -22,6 +22,7 @@ type Microservices struct {
 	Name    string `mapstructure:"name" yaml:"name"`
 	Port    string `mapstructure:"port" yaml:"port"`
 	Version string `mapstructure:"version" yaml:"version"`
+	Dns     string `mapstructure:"dns" yaml:"dns"`
 }
 
 type Environment struct {
@@ -32,7 +33,7 @@ type Log struct {
 	Level string `mapstructure:"level" yaml:"level"`
 }
 
-func LoadConfigurationMicroservice(path string) {
+func LoadConfiguration(path string) {
 	fmt.Println("Loading configuration microservice from file [application.yml]", path)
 	viper.SetConfigName("application.yml")
 	viper.AddConfigPath(path)
@@ -47,9 +48,8 @@ func LoadConfigurationMicroservice(path string) {
 	// Set undefined variables:
 	hostname, _ := os.Hostname()
 
-	fmt.Println("hostname: ", hostname)
-	viper.SetDefault("microserviceServer", hostname)
-	viper.SetDefault("microservicePathRoot", "./")
+	viper.SetDefault("microservices.server", hostname)
+	viper.SetDefault("microservices.path", "./")
 
 	if err := viper.Unmarshal(&Configuration); err != nil {
 		fmt.Printf("unable to decode into struct, %v", err)

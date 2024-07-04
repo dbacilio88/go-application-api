@@ -1,8 +1,10 @@
 # app microservices configuration
 microservices:
-  port: 8001
-  name: go-application-api
+  port: "8001"
+  name: "go-application-api"
   version: 1.0.0
+  dns: localhost
+  path: './'
 
 environment:
   value: dev
