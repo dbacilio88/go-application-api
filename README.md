@@ -13,15 +13,13 @@
 # 🤖 **go-application-api**
 
 <!-- TOC -->
-
 * [🤖 **go-application-api**](#-go-application-api)
 * [📖 **Overview**](#-overview)
-    * [🌐 Interest link](#-interest-link)
+  * [🌐 Interest link](#-interest-link)
 * [🛠️ Build](#-build)
 * [🧪 **library**](#-library)
 * [🧩 **Technologies and Language of application**](#-technologies-and-language-of-application)
 * [🚀 **Deploy**](#-deploy)
-
 <!-- TOC -->
 
 # 📖 **Overview**
